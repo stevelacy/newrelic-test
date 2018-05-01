@@ -1,9 +1,16 @@
 # Newrelic Sequelize memory usage
 
+Start the server:
 ```
 $ export NEWRELIC_KEY=<key>
 $ createdb newrelic_test
 $ yarn start
+
+```
+
+Start the ab benchmark:
+```
+$ ./benchmark.sh
 
 ```
 
